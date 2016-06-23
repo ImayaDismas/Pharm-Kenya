@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Dynapharm</string>
     <string name="slogan">The Power Of One, The Power Of All</string>
+    <string name="i_accept_dynapharm_terms_and_conditions">I accept <u>Dynapharm Terms and Conditions</u></string>
 </resources>

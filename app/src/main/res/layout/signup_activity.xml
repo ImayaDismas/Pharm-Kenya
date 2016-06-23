@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:src="@drawable/dynalogo"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:id="@+id/editText"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginTop="30dp"
+                android:hint="Email Address"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:paddingLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/edit_fields_shape"
+                android:height="88px"
+                android:textSize="35px"
+                android:width="620px"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText2"
+                android:layout_below="@+id/editText"
+                android:layout_centerHorizontal="true"
+                android:hint="Password (at least 6 characters)"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:paddingLeft="20dp"
+                android:background="@drawable/edit_fields_shape"
+                android:height="88px"
+                android:textSize="35px"
+                android:width="620px"
+                android:layout_marginTop="30dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText3"
+                android:layout_below="@+id/editText2"
+                android:hint="Age (for verification)"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:paddingLeft="20dp"
+                android:background="@drawable/edit_fields_shape"
+                android:height="88px"
+                android:textSize="35px"
+                android:width="620px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/i_accept_dynapharm_terms_and_conditions"
+                android:id="@+id/textView3"
+                android:textColor="#ffffff"
+                android:textSize="35px"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/editText3"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView3"
+                android:hint="Sign Up"
+                android:id="@+id/button"
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/roundshapebtn"
+                android:focusableInTouchMode="false"
+                android:textSize="35px"
+                android:textColorHint="#FFFFFF"
+                android:width="420px"
+                android:textColor="#ffffff"
+                android:height="88px" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
