@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:title="">
         <menu>
-            <item android:title="Name of User"
+            <item android:title="<b>Dismas Imaya<b>"
                 android:id="@+id/nav_item_pic"
                 android:icon="@drawable/tab_icon_profile_active3x"/>
         </menu>
@@ -11,19 +11,19 @@
     <item android:title="Main Menu">
         <menu>
 
-            <item android:title="Discover"
+            <item android:title="Dashboard"
                 android:id="@+id/nav_item_discover"
                 android:icon="@drawable/tab_icon_discover_active2x"/>
 
-            <item android:title="Profile"
+            <item android:title="Downline Activity"
                 android:id="@+id/nav_item_profile"
                 android:icon="@drawable/tab_icon_profile_active2x"/>
 
-            <item android:title="My Stories"
+            <item android:title="Search Contacts"
                 android:id="@+id/nav_item_mystories"
                 android:icon="@drawable/tab_icon_stories_active2x"/>
 
-            <item android:title="Notifications"
+            <item android:title="Contact Us"
                 android:id="@+id/nav_item_notifications"
                 android:icon="@drawable/tab_icon_notifications_active2x"/>
         </menu>
