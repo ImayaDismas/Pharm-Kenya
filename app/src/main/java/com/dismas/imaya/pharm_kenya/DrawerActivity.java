@@ -63,10 +63,10 @@ public class DrawerActivity extends AppCompatActivity{
                 }
 
                 if (menuItem.getItemId() == R.id.nav_item_discover) {
-                    Intent intent = new Intent(DrawerActivity.this, SentFragment.class);
-                    startActivity(intent);
-//                    FragmentTransaction afragmentTransaction = mFragmentManager.beginTransaction();
-//                    afragmentTransaction.replace(R.id.containerView,new SentFragment()).commit();
+//                    Intent intent = new Intent(DrawerActivity.this, SentFragment.class);
+//                    startActivity(intent);
+                    FragmentTransaction afragmentTransaction = mFragmentManager.beginTransaction();
+                    afragmentTransaction.replace(R.id.containerView,new SentFragment()).commit();
                 }
 
                 if (menuItem.getItemId() == R.id.nav_item_profile) {

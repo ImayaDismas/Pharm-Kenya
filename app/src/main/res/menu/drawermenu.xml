@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:title="">
         <menu>
-            <item android:title="<b>Dismas Imaya<b>"
+            <item android:title="@string/dismas_imaya"
                 android:id="@+id/nav_item_pic"
                 android:icon="@drawable/tab_icon_profile_active3x"/>
         </menu>
