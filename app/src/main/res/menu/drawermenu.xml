@@ -13,19 +13,19 @@
 
             <item android:title="Discover"
                 android:id="@+id/nav_item_discover"
-                android:icon="@drawable/tab_icon_discover_idle2x"/>
+                android:icon="@drawable/tab_icon_discover_active2x"/>
 
             <item android:title="Profile"
                 android:id="@+id/nav_item_profile"
-                android:icon="@drawable/tab_icon_profile_idle2x"/>
+                android:icon="@drawable/tab_icon_profile_active2x"/>
 
             <item android:title="My Stories"
                 android:id="@+id/nav_item_mystories"
-                android:icon="@drawable/tab_icon_stories_idle2x"/>
+                android:icon="@drawable/tab_icon_stories_active3x"/>
 
             <item android:title="Notifications"
                 android:id="@+id/nav_item_notifications"
-                android:icon="@drawable/tab_icon_notifications_idle2x"/>
+                android:icon="@drawable/tab_icon_notifications_active2x"/>
         </menu>
     </item>
 

@@ -1,5 +1,6 @@
 package com.dismas.imaya.pharm_kenya;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentManager;
@@ -62,7 +63,7 @@ public class DrawerActivity extends AppCompatActivity{
                 }
 
                 if (menuItem.getItemId() == R.id.nav_item_discover) {
-                    Intent intent = new Intent(MainActivityDrawer.this, DiscoverActivity.class);
+                    Intent intent = new Intent(DrawerActivity.this, SentFragment.class);
                     startActivity(intent);
 //                    FragmentTransaction afragmentTransaction = mFragmentManager.beginTransaction();
 //                    afragmentTransaction.replace(R.id.containerView,new SentFragment()).commit();
@@ -111,7 +112,7 @@ public class DrawerActivity extends AppCompatActivity{
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.create_story, menu);
+        getMenuInflater().inflate(R.menu.search, menu);
         return true;
     }
 
@@ -124,7 +125,7 @@ public class DrawerActivity extends AppCompatActivity{
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_search) {
-            Toast.makeText(MainActivityDrawer.this, "Search", Toast.LENGTH_LONG).show();
+            Toast.makeText(DrawerActivity.this, "Search", Toast.LENGTH_LONG).show();
         }
         return super.onOptionsItemSelected(item);
     }
