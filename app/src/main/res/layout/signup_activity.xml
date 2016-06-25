@@ -54,22 +54,6 @@
                 android:width="620px"
                 android:layout_marginTop="30dp"/>
 
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/editText3"
-                android:layout_below="@+id/editText2"
-                android:hint="Age (for verification)"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff"
-                android:paddingLeft="20dp"
-                android:background="@drawable/edit_fields_shape"
-                android:height="88px"
-                android:textSize="35px"
-                android:width="620px"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="30dp"/>
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -79,7 +63,7 @@
                 android:textColor="#ffffff"
                 android:textSize="35px"
                 android:layout_marginTop="30dp"
-                android:layout_below="@+id/editText3"
+                android:layout_below="@+id/editText2"
                 android:layout_centerHorizontal="true" />
 
             <Button
