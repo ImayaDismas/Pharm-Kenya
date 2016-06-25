@@ -21,7 +21,7 @@
 
             <item android:title="My Stories"
                 android:id="@+id/nav_item_mystories"
-                android:icon="@drawable/tab_icon_stories_active3x"/>
+                android:icon="@drawable/tab_icon_stories_active2x"/>
 
             <item android:title="Notifications"
                 android:id="@+id/nav_item_notifications"
