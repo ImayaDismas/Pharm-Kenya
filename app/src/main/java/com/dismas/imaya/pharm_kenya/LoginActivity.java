@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
 
-                Intent intent = new Intent(context, MainActivity.class);
+                Intent intent = new Intent(context, DrawerActivity.class);
                 startActivity(intent);
 
             }
