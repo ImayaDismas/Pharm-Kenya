@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#42C61E</color>
-    <color name="colorPrimaryDark">#4cAF50</color>
+    <color name="colorPrimary">#349E18</color>
+    <color name="colorPrimaryDark">#297E13</color>
     <color name="colorAccent">#006666</color>
 
 
     <color name="green_2">#097054</color>
 42C51E
     <color name="maroon">#600</color>
-    <color name="logo">#E21C24</color>
+    <color name="logo">#42C61E</color>
     <color name="gray">#484848</color>
     <color name="black">#000</color>
+    <color name="white">#FFFFFF</color>
 </resources>
