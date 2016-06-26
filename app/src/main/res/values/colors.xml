@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#600</color>
-    <color name="colorPrimaryDark">#330000</color>
+    <color name="colorPrimary">#42C61E</color>
+    <color name="colorPrimaryDark">#4cAF50</color>
     <color name="colorAccent">#006666</color>
 
 
     <color name="green_2">#097054</color>
-
+42C51E
     <color name="maroon">#600</color>
     <color name="logo">#E21C24</color>
     <color name="gray">#484848</color>
