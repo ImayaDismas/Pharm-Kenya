@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/logo">
+        android:background="@color/white">
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/health_wealth_freedom"
             android:id="@+id/textView"
-            android:textColor="#ffffff"
+            android:textColor="@color/colorPrimary"
             android:textSize="17sp"
             android:textStyle="bold"
             android:layout_below="@+id/imageView"
@@ -42,7 +42,7 @@
             android:layout_alignParentEnd="false"
             android:layout_alignParentStart="false"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/maroon"
             android:textSize="15sp"
             android:textStyle="bold"
             android:layout_marginBottom="10dp"

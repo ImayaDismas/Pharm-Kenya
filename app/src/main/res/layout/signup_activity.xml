@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/logo">
+    android:background="@color/white">
 
 
     <ScrollView
@@ -30,8 +30,8 @@
                 android:layout_below="@+id/imageView3"
                 android:layout_marginTop="30dp"
                 android:hint="Email Address"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
                 android:paddingLeft="20dp"
                 android:layout_centerHorizontal="true"
                 android:background="@drawable/edit_fields_shape"
@@ -46,8 +46,8 @@
                 android:layout_below="@+id/editText"
                 android:layout_centerHorizontal="true"
                 android:hint="Password (at least 6 characters)"
-                android:textColor="#ffffff"
-                android:textColorHint="#ffffff"
+                android:textColor="@color/colorPrimary"
+                android:textColorHint="@color/colorPrimary"
                 android:paddingLeft="20dp"
                 android:background="@drawable/edit_fields_shape"
                 android:height="88px"
@@ -61,7 +61,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/i_accept_dynapharm_terms_and_conditions"
                 android:id="@+id/textView3"
-                android:textColor="#ffffff"
+                android:textColor="@color/tab_color"
                 android:textSize="35px"
                 android:layout_marginTop="30dp"
                 android:layout_below="@+id/editText2"
@@ -78,9 +78,9 @@
                 android:background="@drawable/roundshapebtn"
                 android:focusableInTouchMode="false"
                 android:textSize="35px"
-                android:textColorHint="#FFFFFF"
+                android:textColorHint="@color/white"
                 android:width="420px"
-                android:textColor="#ffffff"
+                android:textColor="@color/white"
                 android:height="88px" />
 
         </RelativeLayout>

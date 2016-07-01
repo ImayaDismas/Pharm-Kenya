@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/logo">
+    android:background="@color/white">
 
 
     <ScrollView
@@ -28,7 +28,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/health_wealth_freedom"
                 android:id="@+id/textView2"
-                android:textColor="#ffffff"
+                android:textColor="@color/colorPrimary"
                 android:textSize="17sp"
                 android:textStyle="bold"
                 android:layout_below="@+id/imageView3"
@@ -47,7 +47,7 @@
                 android:focusableInTouchMode="false"
                 android:textSize="35px"
                 android:width="420px"
-                android:textColorHint="#ffffff"
+                android:textColorHint="@color/maroon"
                 android:height="88px" />
 
             <Button
@@ -61,7 +61,7 @@
                 android:background="@drawable/roundshapebtn1"
                 android:textSize="35px"
                 android:width="420px"
-                android:textColorHint="#ffffff"
+                android:textColorHint="@color/maroon"
                 android:height="88px" />
 
         </RelativeLayout>

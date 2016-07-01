@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#0AC92B</color>
-    <color name="colorPrimaryDark">#36A722</color>
+    <color name="colorPrimary">#4caf50</color>
+    <color name="colorPrimaryDark">#007A00</color>
     <color name="colorAccent">#006666</color>
 
 
     <color name="green_2">#097054</color>
     <color name="maroon">#600</color>
-    <color name="logo">#0AC92B</color>
+    <color name="logo">#4caf50</color>
     <color name="gray">#484848</color>
     <color name="black">#000</color>
     <color name="white">#FFFFFF</color>
+    <color name="other">#2fbc07</color>
+    <color name="one">#32CD32</color>
+    <color name="tab_color">#075E54</color>
+    <color name="login_signup">#dbefdc</color>
+    <color name="signup_btn">#81c784</color>
 </resources>

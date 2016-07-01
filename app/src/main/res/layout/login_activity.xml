@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/logo">
+    android:background="@color/white">
 
 
     <ScrollView
@@ -30,8 +30,8 @@
                 android:layout_below="@+id/imageView3"
                 android:layout_marginTop="38dp"
                 android:hint="Email Address"
-                android:textColorHint="#ffffff"
-                android:textColor="#ffffff"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary"
                 android:paddingLeft="20dp"
                 android:layout_centerHorizontal="true"
                 android:background="@drawable/edit_fields_shape"
@@ -46,11 +46,11 @@
                 android:layout_below="@+id/editText"
                 android:layout_centerHorizontal="true"
                 android:hint="Password"
-                android:textColorHint="#ffffff"
+                android:textColorHint="@color/colorPrimary"
                 android:paddingLeft="20dp"
                 android:background="@drawable/edit_fields_shape"
                 android:height="88px"
-                android:textColor="#ffffff"
+                android:textColor="@color/colorPrimary"
                 android:textSize="35px"
                 android:width="620px"
                 android:layout_marginTop="30dp"/>
@@ -79,7 +79,7 @@
                 android:layout_below="@id/button"
                 android:layout_marginTop="30dp"
                 android:layout_centerHorizontal="true"
-                android:background="#FFFFFF" />
+                android:background="@color/colorPrimary" />
 
 
             <TextView
@@ -88,7 +88,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:text="@string/forgot_password"
                 android:id="@+id/textView4"
-                android:textColor="#ffffff"
+                android:textColor="@color/colorPrimary"
                 android:textSize="35px"
                 android:layout_below="@id/button"
                 android:layout_centerHorizontal="true"
