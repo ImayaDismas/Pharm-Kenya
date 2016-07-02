@@ -22,38 +22,48 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp" />
 
-            <EditText
-                android:layout_width="wrap_content"
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:id="@+id/editText"
-                android:layout_below="@+id/imageView3"
-                android:layout_marginTop="30dp"
-                android:hint="Email Address"
-                android:textColor="@color/colorPrimary"
-                android:textColorHint="@color/colorPrimary"
-                android:paddingLeft="20dp"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/edit_fields_shape"
-                android:height="88px"
-                android:textSize="35px"
-                android:width="620px"/>
+                android:id="@+id/email_input_layout">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/editText"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_marginTop="30dp"
+                    android:hint="Email Address"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    android:paddingLeft="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/edit_fields_shape"
+                    android:height="88px"
+                    android:textSize="35px"
+                    android:width="620px"/>
+            </android.support.design.widget.TextInputLayout>
 
-            <EditText
-                android:layout_width="wrap_content"
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/editText2"
-                android:layout_below="@+id/editText"
-                android:layout_centerHorizontal="true"
-                android:hint="Password (at least 6 characters)"
-                android:textColor="@color/colorPrimary"
-                android:textColorHint="@color/colorPrimary"
-                android:paddingLeft="20dp"
-                android:background="@drawable/edit_fields_shape"
-                android:height="88px"
-                android:textSize="35px"
-                android:width="620px"
-                android:layout_marginTop="30dp"/>
+                android:id="@+id/pass_input_layout">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText2"
+                    android:layout_below="@+id/editText"
+                    android:layout_centerHorizontal="true"
+                    android:hint="Password (at least 6 characters)"
+                    android:textColor="@color/colorPrimary"
+                    android:textColorHint="@color/colorPrimary"
+                    android:paddingLeft="20dp"
+                    android:background="@drawable/edit_fields_shape"
+                    android:height="88px"
+                    android:textSize="35px"
+                    android:width="620px"
+                    android:layout_marginTop="30dp"/>
+            </android.support.design.widget.TextInputLayout>
 
             <TextView
                 android:layout_width="wrap_content"

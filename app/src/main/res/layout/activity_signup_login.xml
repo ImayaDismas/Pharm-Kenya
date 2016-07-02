@@ -47,7 +47,7 @@
                 android:focusableInTouchMode="false"
                 android:textSize="35px"
                 android:width="420px"
-                android:textColorHint="@color/maroon"
+                android:textColorHint="@color/white"
                 android:height="88px" />
 
             <Button
@@ -61,7 +61,7 @@
                 android:background="@drawable/roundshapebtn1"
                 android:textSize="35px"
                 android:width="420px"
-                android:textColorHint="@color/maroon"
+                android:textColorHint="@color/white"
                 android:height="88px" />
 
         </RelativeLayout>
