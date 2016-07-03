@@ -23,21 +23,22 @@
                 android:layout_marginTop="30dp" />
 
             <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
+                android:layout_width="620px"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:textSize="35px"
                 android:id="@+id/emailaddress_input_layout">
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress"
                     android:id="@+id/editText"
-                    android:layout_below="@+id/imageView3"
-                    android:layout_marginTop="38dp"
                     android:hint="Email Address"
                     android:textColorHint="@color/colorPrimary"
                     android:textColor="@color/colorPrimary"
                     android:paddingLeft="20dp"
-                    android:layout_centerHorizontal="true"
                     android:background="@drawable/edit_fields_shape"
                     android:height="88px"
                     android:textSize="35px"
@@ -45,15 +46,17 @@
             </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
-                android:layout_width="match_parent"
+                android:layout_width="620px"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/emailaddress_input_layout"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textSize="35px"
                 android:id="@+id/passwrd_input_layout">
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/editText2"
-                    android:layout_below="@+id/editText"
-                    android:layout_centerHorizontal="true"
                     android:hint="Password"
                     android:textColorHint="@color/colorPrimary"
                     android:paddingLeft="20dp"
@@ -61,15 +64,14 @@
                     android:height="88px"
                     android:textColor="@color/colorPrimary"
                     android:textSize="35px"
-                    android:width="620px"
-                    android:layout_marginTop="30dp"/>
+                    android:width="620px" />
             </android.support.design.widget.TextInputLayout>
 
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/editText2"
+                android:layout_below="@id/passwrd_input_layout"
                 android:hint="Log In"
                 android:textColorHint="#ffffff"
                 android:id="@+id/button"
