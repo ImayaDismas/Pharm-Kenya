@@ -41,7 +41,7 @@
                     android:paddingLeft="20dp"
                     android:layout_centerHorizontal="true"
                     android:background="@drawable/edit_fields_shape"
-                    android:height="88px"
+                    android:height="86px"
                     android:textSize="35px"
                     android:width="620px"/>
             </android.support.design.widget.TextInputLayout>
@@ -63,7 +63,7 @@
                     android:textColorHint="@color/colorPrimary"
                     android:paddingLeft="20dp"
                     android:background="@drawable/edit_fields_shape"
-                    android:height="88px"
+                    android:height="86px"
                     android:textSize="35px"
                     android:width="620px"/>
             </android.support.design.widget.TextInputLayout>
